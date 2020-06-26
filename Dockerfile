@@ -10,6 +10,7 @@ RUN apk --update --no-cache add \
         openssh-client \
         openssl \
         sshpass \
+        bash \
         make && \
     pip3 install --no-cache-dir bumpversion
 
