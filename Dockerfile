@@ -13,6 +13,7 @@ RUN apk --update --no-cache add \
         bash \
         make \
         musl-dev \
+        libffi-dev \
         gcc && \
     pip3 install --no-cache-dir bumpversion twine pipenv
 
