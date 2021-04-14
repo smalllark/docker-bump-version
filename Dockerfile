@@ -4,6 +4,8 @@ FROM python:3.8-alpine
 ARG BUILD_DATE
 ARG VCS_REF
 
+ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
+
 RUN apk --update --no-cache add \
         ca-certificates \
         git \
