@@ -12,7 +12,7 @@ RUN apk --update --no-cache add \
         sshpass \
         bash \
         make && \
-    pip3 install --no-cache-dir bumpversion
+    pip3 install --no-cache-dir bumpversion twine pipenv
 
 WORKDIR /app
 
