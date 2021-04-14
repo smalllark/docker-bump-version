@@ -12,6 +12,7 @@ RUN apk --update --no-cache add \
         sshpass \
         bash \
         make \
+        musl-dev \
         gcc && \
     pip3 install --no-cache-dir bumpversion twine pipenv
 
