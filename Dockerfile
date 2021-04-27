@@ -14,6 +14,7 @@ RUN apk --update --no-cache add \
         sshpass \
         bash \
         make \
+        libressl-dev \
         musl-dev \
         libffi-dev \
         gcc && \
